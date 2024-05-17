@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="h4">Name</th>
+          <th class="h4">scientific name</th>
+          <th class="h4">feeding</th>
+          <th class="h4">global distribution</th>
+        </tr>
+        <tr *ngFor="let c of pinguinos">
+        
+          <td>
+            <dd>{{c.name}}</dd>
+          </td>
+          <td>
+            <dd>{{c.scientific_name}}</dd>
+          </td>
+          <td>
+            <dd>{{c.feeding}}</dd>
+          </td>
+          <td>
+            <dd>{{c.global_distribution}}</dd>
+          </td>
+          
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</div>
